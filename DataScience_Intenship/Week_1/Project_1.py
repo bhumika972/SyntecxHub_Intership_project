@@ -1,9 +1,6 @@
 import pandas as pd
-
-
 # Load dataset
-data = pd.read_csv("Housing_Dataset.csv")
-
+data = pd.read_csv(r"C:\Users\S.A COMPUTER\PycharmProjects\SyntecxHub_Intership_project\DataScience_Intenship\Data\Housing_Dataset.csv")
 print("First 5 Rows:")
 print(data.head())
 
